@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="shortcut icon" href="pictures/registration-icon.png" type="image/x-icon">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input{
+            margin-left: 10px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 2px solid #060000;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <h3>Please fill up the form</h3>
+        </section>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="First Name">First Name</label></td>
+                    <td><input type="text" name="" id="First name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Last Name">Last Name</label></td>
+                    <td><input type="text" name="" id="Last name"></td>
+                </tr>
+                <tr>
+                    <td><label for="ID">ID</label></td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="">Male
+                        <input type="radio" name="gender" id="">Female
+                        <input type="radio" name="gender" id="">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="occupation">Occupation</label></td>
+                    <td>
+                        <input type="checkbox" name="occupation" id="student">Student
+                        <input type="checkbox" name="occupation" id="job">Job Holder
+                        <input type="checkbox" name="occupation" id="business">Businessman
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="department">Department</label></td>
+                    <td>
+                        <select name="department" id="">
+                            <option value="cse">CSE</option>
+                            <option value="eee">EEE</option>
+                            <option value="llb">LLB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="image">Image</label></td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td>
+                        <textarea name="" id="" placeholder="Street, City, Country"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
